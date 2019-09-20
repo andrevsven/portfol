@@ -1,0 +1,157 @@
+body{
+	color: #595959;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	
+
+}
+header{
+	position: absolute;
+	top: 56px;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+
+
+.logo{
+	font-size: 24px;
+font-weight: 600;
+line-height: 14px;
+text-decoration-line: bold;
+margin-left: 60px;
+}
+.wrapper{
+	max-width: 1440px;
+	margin: 0 auto;
+}
+.header-wrap{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.menu{
+	display: flex;
+  list-style:none;
+  text-align: center;
+  padding: 10px;
+  
+}
+.menu_link{
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 33px;
+  color:#0d0d0d;
+  
+}
+.menu_link:hover {
+  font-weight: bold;
+  font-size: 18px;
+  
+}
+
+.menu_item{
+  display: flex;
+  justify-content: center;
+	margin-left: 30px;
+  position: relative;
+  width: 90px;
+height: 25px;
+
+}	
+.fon{
+  background:#FFF519 url(../img/logo.png) no-repeat center;
+  display: flex;
+  height: 1024px;
+  align-items: center;
+}
+.fon__item{
+  min-height: 600px;
+}
+.fon_log{
+  font-style: normal;
+font-weight: bold;
+font-size: 100px;
+line-height: 120px;
+color: #2D2805;
+text-align: center;
+margin-bottom: 160px;
+margin-top: 60px;
+font-family: Playfair Display;
+
+}
+.fon_text{
+  font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #2D2805;
+
+}
+.work{
+	display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.work__item{
+  max-width: 1200px;
+  
+	text-align: center;
+}
+.work_img{
+  width: 350px;
+  
+}
+.work_text{
+  padding-top:30px ;
+  padding-left: 75px;
+
+  max-width: 1400px;
+text-align: left;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+color: #2D2805;
+}
+.btn{
+  width: 414px;
+height: 50px;
+border: 1px solid #FFF519;
+background: #FFF519;
+box-shadow: 0px 4px 10px rgba(255, 245, 25, 0.35);
+border-radius: 100px;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+margin-top: 44px;
+margin-bottom: 100px;
+}
+.active{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+img{
+  
+	margin: 0;
+	padding: 0;
+	box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.25);
+	margin: 8px;
+	border-radius: 5%;
+	
+}
+@media (max-width: 1800px) {
+  .work_img{width: 320px;}
+ }
+@media (max-width: 1800px){
+  .work__item{max-width: 1100px;}
+}
+@media (max-width: 1700px) {
+  .work_img{width: 280px;}
+ }
+@media (max-width: 1700px){
+  .work__item{max-width: 1000px;}
+}
